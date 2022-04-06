@@ -11,11 +11,6 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 <!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
 - [Link para o código](https://github.com/link_do_repositorio). <!-- caso não aplicável, remover esta linha -->
 
-- [Link para a monografia](https://link_da_monografia.com). <!-- caso não aplicável, remover esta linha -->
-
-- Trabalhos relacionados: <!-- caso não aplicável, remover estas linhas -->
-    - [Nome do Trabalho 1](https://link_do_trabalho.com).
-
 ---
 
 ### Resumo
@@ -56,7 +51,7 @@ Junto a isso, são criados 11 camadas na mesma arquitetura de rede neural que in
 5 Dropout: Camada para ajudar na capacidade de generalização da rede, prevenindo o overffiting do modelo. Esta camada de dropout possui 20% de chance de ativação, isto é, durante a realziação do treinamento, o output de um neorônio terá 20% de chance do seu valor ser substituido por "0". Desta maneira, um neurônio não vai ficar "especializado" durante o treinaemnto ajudando assim a combater o overfitting do modelo;
 1 Dense: A camada dense é responsável por resolver o problema de forma não linear. Essa camada é responsável por passar o resultado produzido por um neurônio em uma função não linear, possibilitando assim a resolução de problemas complexos e não lineares. Essa camada foi configurada com 100 neurônios e possui a função de ativação "relu";
 
-E foram alternadas três quantidades de épocas de 7500, 5000 e 2500.
+E foram alternadas três quantidades de épocas de 2500, 5000 e 7500.
 
 Por fim, foram utilizados as métricas de erro RMSE e MAPE visto a frequência utilização nos modelos de previsão de séries temporais de usinas eólicas.
 
