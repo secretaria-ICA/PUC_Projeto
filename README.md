@@ -60,7 +60,8 @@ Por fim, foram utilizados as métricas de erro RMSE e MAPE visto a frequência u
 Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 •	Usina A:
-      Para 2500 épocas:
+     
+     Para 2500 épocas:
         Train > RMSE:   / MAPE: 
         Test  > RMSE:   / MAPE:
       Para 5000 épocas:
@@ -68,9 +69,11 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
         Test  > RMSE:   / MAPE:   
       Para 7500 épocas:
         Train > RMSE:   / MAPE:  
-        Test  > RMSE:   / MAPE:   
+        Test  > RMSE:   / MAPE:  
+        
 •	Usina B:
-      Para 2500 épocas:
+     
+     Para 2500 épocas:
         Train > RMSE:   / MAPE: 
         Test  > RMSE:   / MAPE:
       Para 5000 épocas:
@@ -78,8 +81,10 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
         Test  > RMSE:   / MAPE:   
       Para 7500 épocas:
         Train > RMSE:   / MAPE:  
-        Test  > RMSE:   / MAPE:   
+        Test  > RMSE:   / MAPE:  
+        
 •	Usina C:
+      
       Para 2500 épocas:
         Train > RMSE:   / MAPE: 
         Test  > RMSE:   / MAPE:
@@ -88,22 +93,40 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
         Test  > RMSE:   / MAPE:   
       Para 7500 épocas:
         Train > RMSE:   / MAPE:  
-        Test  > RMSE:   / MAPE:          
+        Test  > RMSE:   / MAPE:  
+        
 •	Subsistema Nordeste:
+      
       Para 2500 épocas:
-        Train > RMSE:   / MAPE: 
-        Test  > RMSE:   / MAPE:
+        Train > RMSE: 18.83 / MAPE: 1.43
+        Test  > RMSE: 37.08 / MAPE: 1.57
       Para 5000 épocas:
-        Train > RMSE:   / MAPE:
-        Test  > RMSE:   / MAPE:   
+        Train > RMSE: 18.89 / MAPE: 1.37
+        Test  > RMSE: 37.00 / MAPE: 1.52 
       Para 7500 épocas:
         Train > RMSE:   / MAPE:  
         Test  > RMSE:   / MAPE:      
 
+Avaliação de erro - 2500 épocas
+
+Previsão dos 12 meses - 2500 épocas
+
+
+Avaliação de erro - 5000 épocas
+![image](https://user-images.githubusercontent.com/102811613/162518692-2005c9af-7e69-4ca6-a7c2-0bd7257ed5d3.png)
+
+Previsão dos 12 meses - 5000 épocas
+![image](https://user-images.githubusercontent.com/102811613/162518780-374be83d-c1d3-437c-91f8-55940a9c5474.png)
+
+Avaliação de erro - 7500 épocas
+
+Previsão dos 12 meses - 7500 épocas
+
+
 
 Os melhores resultados obtidos indicaram que para as Usinas, em X% dos casos, o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
 
-
+Gráfico de geração
 ![image](https://user-images.githubusercontent.com/102811613/162490620-b560e235-5b47-432d-a070-8dfa0a27d1c6.png)
 
 ### 4. Conclusões
