@@ -61,33 +61,38 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 •	Usina A:
       Para 2500 épocas:
-        > RMSE:   / MAPE:   
+        Train > RMSE:   / MAPE: 
+        Test  > RMSE:   / MAPE:
       Para 5000 épocas:
-        > RMSE:   / MAPE:   
+        Train > RMSE:   / MAPE:
+        Test  > RMSE:   / MAPE:   
       Para 7500 épocas:
-        > RMSE:   / MAPE:   
+        Train > RMSE:   / MAPE:  
+        Test  > RMSE:   / MAPE:   
 •	Usina B:
       Para 2500 épocas:
-        > RMSE:   / MAPE:   
+        Train > RMSE:   / MAPE: 
+        Test  > RMSE:   / MAPE:
       Para 5000 épocas:
-        > RMSE:   / MAPE:   
+        Train > RMSE:   / MAPE:
+        Test  > RMSE:   / MAPE:   
       Para 7500 épocas:
-        > RMSE:   / MAPE:       
+        Train > RMSE:   / MAPE:  
+        Test  > RMSE:   / MAPE:   
 •	Usina C:
       Para 2500 épocas:
-        > RMSE:   / MAPE:   
+        Train > RMSE:   / MAPE: 
+        Test  > RMSE:   / MAPE:
       Para 5000 épocas:
-        > RMSE:   / MAPE:   
+        Train > RMSE:   / MAPE:
+        Test  > RMSE:   / MAPE:   
       Para 7500 épocas:
-        > RMSE:   / MAPE:       
+        Train > RMSE:   / MAPE:  
+        Test  > RMSE:   / MAPE:          
 •	Subsistema Nordeste:
       Para 2500 épocas:
-        Train > RMSE: 15,90  / MAPE: 1.17 
-        Test  > RMSE: 39.29  / MAPE: 1.81
-![image](https://user-images.githubusercontent.com/102811613/162512171-03d5c7f5-fec3-4a0d-98c4-4c9893219490.png)
-
-![image](https://user-images.githubusercontent.com/102811613/162512051-6496a064-89e7-4178-9850-ca2d641b09eb.png)
-
+        Train > RMSE:   / MAPE: 
+        Test  > RMSE:   / MAPE:
       Para 5000 épocas:
         Train > RMSE:   / MAPE:
         Test  > RMSE:   / MAPE:   
