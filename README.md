@@ -57,7 +57,46 @@ Por fim, foram utilizados as métricas de erro RMSE e MAPE visto a frequência u
 
 ### 3. Resultados
 
-Os melhores resultados obtidos indicaram que, em X% dos casos, o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
+Assim, após as rodadas geradas para cada item temos as seguintes resultados:
+
+•	Usina A:
+      Para 2500 épocas:
+        > RMSE:   / MAPE:   
+      Para 5000 épocas:
+        > RMSE:   / MAPE:   
+      Para 7500 épocas:
+        > RMSE:   / MAPE:   
+•	Usina B:
+      Para 2500 épocas:
+        > RMSE:   / MAPE:   
+      Para 5000 épocas:
+        > RMSE:   / MAPE:   
+      Para 7500 épocas:
+        > RMSE:   / MAPE:       
+•	Usina C:
+      Para 2500 épocas:
+        > RMSE:   / MAPE:   
+      Para 5000 épocas:
+        > RMSE:   / MAPE:   
+      Para 7500 épocas:
+        > RMSE:   / MAPE:       
+•	Subsistema Nordeste:
+      Para 2500 épocas:
+        Train > RMSE: 15,90  / MAPE: 1.17 
+        Test  > RMSE: 39.29  / MAPE: 1.81
+![image](https://user-images.githubusercontent.com/102811613/162512171-03d5c7f5-fec3-4a0d-98c4-4c9893219490.png)
+
+![image](https://user-images.githubusercontent.com/102811613/162512051-6496a064-89e7-4178-9850-ca2d641b09eb.png)
+
+      Para 5000 épocas:
+        Train > RMSE:   / MAPE:
+        Test  > RMSE:   / MAPE:   
+      Para 7500 épocas:
+        Train > RMSE:   / MAPE:  
+        Test  > RMSE:   / MAPE:      
+
+
+Os melhores resultados obtidos indicaram que para as Usinas, em X% dos casos, o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
 
 
 ![image](https://user-images.githubusercontent.com/102811613/162490620-b560e235-5b47-432d-a070-8dfa0a27d1c6.png)
