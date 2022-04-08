@@ -59,6 +59,9 @@ Por fim, foram utilizados as métricas de erro RMSE e MAPE visto a frequência u
 
 Os melhores resultados obtidos indicaram que, em X% dos casos, o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
 
+
+![image](https://user-images.githubusercontent.com/102811613/162490620-b560e235-5b47-432d-a070-8dfa0a27d1c6.png)
+
 ### 4. Conclusões
 
 
