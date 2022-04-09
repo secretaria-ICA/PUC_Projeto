@@ -74,15 +74,25 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 •	Usina B:
      
      Para 2500 épocas:
-        Train > RMSE:   / MAPE: 
-        Test  > RMSE:   / MAPE:
+        Train > RMSE: 0.13 / MAPE: 1.20 
+        Test  > RMSE: 0.12 / MAPE: 1.30 
       Para 5000 épocas:
-        Train > RMSE:   / MAPE:
-        Test  > RMSE:   / MAPE:   
+        Train > RMSE: 0.13   / MAPE:1.19 
+        Test  > RMSE: 0.12   / MAPE:  1.28  
       Para 7500 épocas:
         Train > RMSE:   / MAPE:  
         Test  > RMSE:   / MAPE:  
         
+ 2500 épocas - val loss (blue) and loss (orange)       
+ ![image](https://user-images.githubusercontent.com/102811613/162583249-33b7e57a-2223-4ca8-98d3-ebd868765f74.png)
+ 
+ 2500 épocas - previsão em verde
+![image](https://user-images.githubusercontent.com/102811613/162583269-4b5eaa9e-21b2-4159-b773-9f9ef40ef2a1.png)
+
+ 5000 épocas - val loss (blue) and loss (orange)       
+
+ 5000 épocas - previsão em verde
+
 •	Usina C:
       
       Para 2500 épocas:
