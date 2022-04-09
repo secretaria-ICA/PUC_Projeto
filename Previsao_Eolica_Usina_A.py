@@ -7,8 +7,6 @@ Utilizaremos uma rede neural LSTM para o caso de uma série temporal sobre o per
 # Importando bibliotecas
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.pyplot import figure
-figure(figsize=(8, 6), dpi=80)
 import pandas as pd
 import math
 from keras.models import Sequential
@@ -33,22 +31,22 @@ dataframe.plot()
 dataset = dataframe.values
 dataset = dataset.astype('float32')
 
-look_back = 1
+look_back = 12
 
 # Divite os dados de treino (2/3) e teste (1/3)
 # Note que a divisão não é aleatória, mas sim sequencial
 train_size = int(len(dataset) * 0.70)
 test_size = len(dataset) - train_size
-train, test = dataset[0:train_size,:], dataset[train_size-look_back-1:len(dataset),:]
+train, test = dataset[0:train_size,:], dataset[train_size-look_back-12:len(dataset),:]
 
 # Recebe uma série e converte em uma matriz com séries deslocadas.
-def create_dataset(dataset, look_back=1, std=1):
+def create_dataset(dataset, look_back=12, std=1):
     dataX, dataY = [], []
     for i in range(len(dataset)-look_back):
         a = dataset[i:(i+look_back), 0]-dataset[i, 0]
         a /= std
         dataX.append(a)
-        dataY.append(dataset[i + look_back, 0]-dataset[i + look_back-1, 0])
+        dataY.append(dataset[i + look_back, 0]-dataset[i + look_back-12, 0])
     return np.array(dataX), np.array(dataY)
 
 # reshape into X=t and Y=t+1
