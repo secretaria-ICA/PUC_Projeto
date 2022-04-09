@@ -62,14 +62,14 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 •	Usina A:
      
      Para 2500 épocas:
-        Train > RMSE:   / MAPE: 
-        Test  > RMSE:   / MAPE:
+        Train > RMSE: 0.09 / MAPE: 1.36
+        Test  > RMSE: 0.09 / MAPE: 20.61 
       Para 5000 épocas:
-        Train > RMSE:   / MAPE:
-        Test  > RMSE:   / MAPE:   
+        Train > RMSE: 0.09 / MAPE: 1.36 
+        Test  > RMSE: 0.09 / MAPE: 20.64  
       Para 7500 épocas:
-        Train > RMSE:   / MAPE:  
-        Test  > RMSE:   / MAPE:  
+        Train > RMSE: 0.09 / MAPE: 1.33 
+        Test  > RMSE: 0.09 / MAPE: 18.91  
         
 •	Usina B:
      
@@ -104,8 +104,8 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
         Train > RMSE: 18.89 / MAPE: 1.37
         Test  > RMSE: 37.00 / MAPE: 1.52 
       Para 7500 épocas:
-        Train > RMSE:   / MAPE:  
-        Test  > RMSE:   / MAPE:      
+        Train > RMSE:  18.83 / MAPE: 1.49 
+        Test  > RMSE:  31.65 / MAPE: 1.75     
 
 Avaliação de erro - 2500 épocas
 
