@@ -123,49 +123,61 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 •	Usina C:
       
       Para 2500 épocas:
-        Train > RMSE:   / MAPE: 
-        Test  > RMSE:   / MAPE:
+        Train > RMSE: 0.16   / MAPE: 1.30 
+        Test  > RMSE: 0.09   / MAPE: 1.32 
       Para 5000 épocas:
-        Train > RMSE:   / MAPE:
-        Test  > RMSE:   / MAPE:   
+        Train > RMSE: 0.16   / MAPE: 1.44 
+        Test  > RMSE: 0.09   / MAPE: 1.45 
       Para 7500 épocas:
-        Train > RMSE:   / MAPE:  
-        Test  > RMSE:   / MAPE:  
+        Train > RMSE: 0.16   / MAPE: 1.46
+        Test  > RMSE: 0.09   / MAPE: 1.47  
 2500 épocas - val loss (blue) and loss (orange)       
- 
+ ![image](https://user-images.githubusercontent.com/102811613/163681191-554b491e-17b6-4cfe-aa70-bd16fcfb27f8.png)
+
 2500 épocas - previsão em verde
+![image](https://user-images.githubusercontent.com/102811613/163681221-ab7cc3f4-82ca-4d0a-8351-7e7c6adb11e3.png)
 
 5000 épocas - val loss (blue) and loss (orange)       
+![image](https://user-images.githubusercontent.com/102811613/163681312-27e50ea6-df0e-44d9-a7f8-ca9da4d1afd1.png)
 
 5000 épocas - previsão em verde
+![image](https://user-images.githubusercontent.com/102811613/163681308-a868cd07-ee5f-4fe0-b624-5fea8b77e37c.png)
 
 7500 épocas - val loss (blue) and loss (orange)       
+![image](https://user-images.githubusercontent.com/102811613/163681413-602067c8-9359-4ab7-ac0b-1c3bbe107631.png)
 
 7500 épocas - previsão em verde
-        
+![image](https://user-images.githubusercontent.com/102811613/163681407-cde522f5-0627-4e82-9c4f-2e821da3ce97.png)
+
 •	Subsistema Nordeste:
       
       Para 2500 épocas:
-        Train > RMSE: 18.83 / MAPE: 1.43
-        Test  > RMSE: 37.08 / MAPE: 1.57
+        Train > RMSE: 18.72  / MAPE: 1.42
+        Test  > RMSE: 31.53 / MAPE: 1.68 
       Para 5000 épocas:
-        Train > RMSE: 18.89 / MAPE: 1.37
-        Test  > RMSE: 37.00 / MAPE: 1.52 
+        Train > RMSE: 18.77  / MAPE: 1.42
+        Test  > RMSE: 31.55  / MAPE: 1.69 
       Para 7500 épocas:
-        Train > RMSE:  18.83 / MAPE: 1.49 
-        Test  > RMSE:  31.65 / MAPE: 1.75     
+        Train > RMSE:  18.82  / MAPE: 1.69  
+        Test  > RMSE:  31.57  / MAPE: 1.43      
 
 2500 épocas - val loss (blue) and loss (orange)       
- 
+ ![image](https://user-images.githubusercontent.com/102811613/163682656-a0a3b457-636c-4739-91b6-00f712c335cd.png)
+
 2500 épocas - previsão em verde
+![image](https://user-images.githubusercontent.com/102811613/163682682-c84f63c3-1dc8-43a2-ac9a-9f98a4a93669.png)
 
 5000 épocas - val loss (blue) and loss (orange)       
+![image](https://user-images.githubusercontent.com/102811613/163682282-0d129b3e-4dc8-4dd9-9170-b5682cf20f51.png)
 
 5000 épocas - previsão em verde
+![image](https://user-images.githubusercontent.com/102811613/163682306-ac8b9adc-4803-4223-9be0-c3cc3eed5dd4.png)
 
 7500 épocas - val loss (blue) and loss (orange)       
+![image](https://user-images.githubusercontent.com/102811613/163681913-03d99790-fdfb-4907-9386-3cbe92a2a659.png)
 
 7500 épocas - previsão em verde
+![image](https://user-images.githubusercontent.com/102811613/163681920-f565ca24-7651-4f96-810e-598233fd9267.png)
 
 
 Os melhores resultados obtidos indicaram que para as Usinas, em X% dos casos, o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
