@@ -60,6 +60,11 @@ Por fim, foram utilizados as métricas de erro RMSE e MAPE visto a frequência u
 Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 •	Usina A:
+
+Perfil de geração
+
+![image](https://user-images.githubusercontent.com/102811613/164726063-0fdbe902-20d2-46ca-abdd-c01742869832.png)
+      
      
      Para 2500 épocas:
         Train > RMSE: 0.09 / MAPE: 1.31 
@@ -71,32 +76,36 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
         Train > RMSE: 0.09 / MAPE: 1.31  
         Test  > RMSE: 0.09 / MAPE: 34.95   
         
-2500 épocas - val loss (blue) and loss (orange)       
+2500 épocas - val loss (blue) and loss (orange)      
 
-![image](https://user-images.githubusercontent.com/102811613/163443207-53068eab-15df-4dc7-8386-a13f5cad70d4.png)
+![image](https://user-images.githubusercontent.com/102811613/164726375-04965b02-22a8-4b9e-ad49-c40fdaf1981f.png)
 
 2500 épocas - previsão em verde
 
-![image](https://user-images.githubusercontent.com/102811613/163443192-7031712d-353d-4e96-8f47-8f9f1488ef99.png)
+![image](https://user-images.githubusercontent.com/102811613/164726406-fff9fea1-3587-43e0-b4e8-ea1540ef91d6.png)
 
-5000 épocas - val loss (blue) and loss (orange)       
+5000 épocas - val loss (blue) and loss (orange)   
 
-![image](https://user-images.githubusercontent.com/102811613/163442752-41a1aaad-f4ef-4243-8ed5-cc8d869df243.png)
+![image](https://user-images.githubusercontent.com/102811613/164726795-c7b93cb4-1306-4b2d-aa9a-41774aa61039.png)
 
 5000 épocas - previsão em verde
 
-![image](https://user-images.githubusercontent.com/102811613/163442777-b6bbc9c6-b4c4-44c6-b6a2-ea4b347d6844.png)
+![image](https://user-images.githubusercontent.com/102811613/164726761-39ee88a9-62b8-4abe-9811-d090b85e6616.png)
 
-7500 épocas - val loss (blue) and loss (orange)       
+7500 épocas - val loss (blue) and loss (orange)   
 
-![image](https://user-images.githubusercontent.com/102811613/163440815-7e6cd98a-6183-47b8-87be-74891745b52b.png)
+![image](https://user-images.githubusercontent.com/102811613/163681413-602067c8-9359-4ab7-ac0b-1c3bbe107631.png)
 
 7500 épocas - previsão em verde
 
-![image](https://user-images.githubusercontent.com/102811613/163440839-b068e765-c7e9-4d3a-9900-917081f9647e.png)
-        
+![image](https://user-images.githubusercontent.com/102811613/164727399-a9e6d8e4-f9d3-4991-8be5-2ed30847e96c.png)
+ 
 •	Usina B:
-     
+
+Perfil de geração
+
+![image](https://user-images.githubusercontent.com/102811613/164729906-65ac35ec-7faf-42bb-bae0-530062309359.png)
+
      Para 2500 épocas:
         Train > RMSE: 0.13 / MAPE: 1.20 
         Test  > RMSE: 0.12 / MAPE: 1.30 
@@ -109,31 +118,30 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
         
  2500 épocas - val loss (blue) and loss (orange)  
  
- ![image](https://user-images.githubusercontent.com/102811613/162583249-33b7e57a-2223-4ca8-98d3-ebd868765f74.png)
  
+
  2500 épocas - previsão em verde
- 
-![image](https://user-images.githubusercontent.com/102811613/162583269-4b5eaa9e-21b2-4159-b773-9f9ef40ef2a1.png)
+
 
  5000 épocas - val loss (blue) and loss (orange)   
  
-![image](https://user-images.githubusercontent.com/102811613/163439738-05954d78-cc1a-451d-a1b7-6870c90c4daf.png)
+![image](https://user-images.githubusercontent.com/102811613/164732489-7f9d3804-c1db-4ae0-bb52-c1e424ce4bc1.png)
 
  5000 épocas - previsão em verde
  
-![image](https://user-images.githubusercontent.com/102811613/163439777-11dfa1fa-a0f3-4932-b356-1ddeb190fd27.png)
+![image](https://user-images.githubusercontent.com/102811613/164732500-657b71fa-202a-43c9-886d-e75807fa3954.png)
 
 7500 épocas - val loss (blue) and loss (orange)   
 
-![image](https://user-images.githubusercontent.com/102811613/163440368-4fa7c9ab-3fd0-44ac-ba7f-8be113417fb0.png)
+![image](https://user-images.githubusercontent.com/102811613/164731084-53022b65-ec6b-4a60-b1ed-55e1447ed125.png)
 
 7500 épocas - previsão em verde
 
-![image](https://user-images.githubusercontent.com/102811613/163440407-9c9b95ea-2936-4168-bbf6-56990f7f7066.png)
-
+![image](https://user-images.githubusercontent.com/102811613/164731117-859551d0-9fa9-4c2f-974a-5fa240de23cf.png)
 
 •	Usina C:
-      
+
+
       Para 2500 épocas:
         Train > RMSE: 0.16   / MAPE: 1.30 
         Test  > RMSE: 0.09   / MAPE: 1.32 
@@ -144,33 +152,12 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
         Train > RMSE: 0.16   / MAPE: 1.46
         Test  > RMSE: 0.09   / MAPE: 1.47  
 
-2500 épocas - val loss (blue) and loss (orange)      
-
-![image](https://user-images.githubusercontent.com/102811613/164724996-2a6c4932-3396-4890-bf86-dd58aceaef51.png)
-
-2500 épocas - previsão em verde
-
-![image](https://user-images.githubusercontent.com/102811613/163681221-ab7cc3f4-82ca-4d0a-8351-7e7c6adb11e3.png)
-
-5000 épocas - val loss (blue) and loss (orange)   
-
-![image](https://user-images.githubusercontent.com/102811613/163681312-27e50ea6-df0e-44d9-a7f8-ca9da4d1afd1.png)
-
-5000 épocas - previsão em verde
-
-![image](https://user-images.githubusercontent.com/102811613/163681308-a868cd07-ee5f-4fe0-b624-5fea8b77e37c.png)
-
-7500 épocas - val loss (blue) and loss (orange)   
-
-![image](https://user-images.githubusercontent.com/102811613/163681413-602067c8-9359-4ab7-ac0b-1c3bbe107631.png)
-
-7500 épocas - previsão em verde
-
-![image](https://user-images.githubusercontent.com/102811613/164711070-124735f1-9aab-4dd0-9f06-f2bc6e50cb48.png)
 
 •	Subsistema Nordeste:
 
+Perfil de geração
 
+![image](https://user-images.githubusercontent.com/102811613/164725258-7633574b-d528-43e7-92e9-3653d24d3e8d.png)
       
       Para 2500 épocas:
         Train > RMSE: 18.72  / MAPE: 1.42
@@ -206,13 +193,10 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 ![image](https://user-images.githubusercontent.com/102811613/164723475-62828c6e-8511-4abe-b854-94cee877e39d.png)
 
-Os melhores resultados obtidos indicaram que para as Usinas -  - o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
 
-Perfil de geração
-
-![image](https://user-images.githubusercontent.com/102811613/164710665-d7959db5-5597-413f-870b-a2c49940faeb.png)
 
 ### 4. Conclusões
+Os melhores resultados obtidos indicaram que para as Usinas -  - o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
 
 
 ---
