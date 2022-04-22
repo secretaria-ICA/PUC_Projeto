@@ -143,9 +143,10 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
       Para 7500 épocas:
         Train > RMSE: 0.16   / MAPE: 1.46
         Test  > RMSE: 0.09   / MAPE: 1.47  
+
 2500 épocas - val loss (blue) and loss (orange)      
 
- ![image](https://user-images.githubusercontent.com/102811613/163681191-554b491e-17b6-4cfe-aa70-bd16fcfb27f8.png)
+![image](https://user-images.githubusercontent.com/102811613/164724996-2a6c4932-3396-4890-bf86-dd58aceaef51.png)
 
 2500 épocas - previsão em verde
 
@@ -187,7 +188,7 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 2500 épocas - Realizado x Previsão 
 
-![image](https://user-images.githubusercontent.com/102811613/164721035-725c8fb2-8e3e-41f7-b7a1-87d7b8cfd24c.png)
+![image](https://user-images.githubusercontent.com/102811613/164724865-c91878fa-a7f0-47d8-95fd-ac455c6cffb5.png)
 
 5000 épocas - val loss (blue) and loss (orange)       
 
