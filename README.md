@@ -183,7 +183,7 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 2500 épocas - val loss (blue) and loss (orange)    
 
-![image](https://user-images.githubusercontent.com/102811613/164709385-f7c3ab2d-0f51-4112-8ce4-5595f2bb976a.png)
+![image](https://user-images.githubusercontent.com/102811613/164721739-4664d2ad-ff0f-4a70-bd12-8453c68dcbcc.png)
 
 2500 épocas - Realizado x Previsão 
 
@@ -191,10 +191,9 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 5000 épocas - val loss (blue) and loss (orange)       
 
-![image](https://user-images.githubusercontent.com/102811613/164710460-0dfe2d46-c40f-40dc-9d4d-672c08d4af53.png)
+![image](https://user-images.githubusercontent.com/102811613/164722193-65d17962-549c-4310-9042-b2b92036974f.png)
 
-
-![image](https://user-images.githubusercontent.com/102811613/164719987-8f963f77-17e4-41da-804c-ae1b46ec28c0.png)
+![image](https://user-images.githubusercontent.com/102811613/164722248-796a7f92-f991-49f8-8839-27bbc26110de.png)
 
 7500 épocas      
 
