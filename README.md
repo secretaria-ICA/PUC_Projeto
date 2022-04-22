@@ -72,21 +72,27 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
         Test  > RMSE: 0.09 / MAPE: 34.95   
         
 2500 épocas - val loss (blue) and loss (orange)       
- ![image](https://user-images.githubusercontent.com/102811613/163443207-53068eab-15df-4dc7-8386-a13f5cad70d4.png)
+
+![image](https://user-images.githubusercontent.com/102811613/163443207-53068eab-15df-4dc7-8386-a13f5cad70d4.png)
 
 2500 épocas - previsão em verde
+
 ![image](https://user-images.githubusercontent.com/102811613/163443192-7031712d-353d-4e96-8f47-8f9f1488ef99.png)
 
 5000 épocas - val loss (blue) and loss (orange)       
+
 ![image](https://user-images.githubusercontent.com/102811613/163442752-41a1aaad-f4ef-4243-8ed5-cc8d869df243.png)
 
 5000 épocas - previsão em verde
+
 ![image](https://user-images.githubusercontent.com/102811613/163442777-b6bbc9c6-b4c4-44c6-b6a2-ea4b347d6844.png)
 
 7500 épocas - val loss (blue) and loss (orange)       
+
 ![image](https://user-images.githubusercontent.com/102811613/163440815-7e6cd98a-6183-47b8-87be-74891745b52b.png)
 
 7500 épocas - previsão em verde
+
 ![image](https://user-images.githubusercontent.com/102811613/163440839-b068e765-c7e9-4d3a-9900-917081f9647e.png)
         
 •	Usina B:
