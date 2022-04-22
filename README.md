@@ -165,9 +165,11 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 7500 épocas - previsão em verde
 
-![image](https://user-images.githubusercontent.com/102811613/163681407-cde522f5-0627-4e82-9c4f-2e821da3ce97.png)
+![image](https://user-images.githubusercontent.com/102811613/164711070-124735f1-9aab-4dd0-9f06-f2bc6e50cb48.png)
 
 •	Subsistema Nordeste:
+
+
       
       Para 2500 épocas:
         Train > RMSE: 18.72  / MAPE: 1.42
@@ -185,19 +187,19 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 2500 épocas - previsão em verde
 
-![image](https://user-images.githubusercontent.com/102811613/163682682-c84f63c3-1dc8-43a2-ac9a-9f98a4a93669.png)
+![image](https://user-images.githubusercontent.com/102811613/164709561-c3a92cf5-0bc4-4352-a8fe-d9cb30b3f227.png)
 
 5000 épocas - val loss (blue) and loss (orange)       
 
-![image](https://user-images.githubusercontent.com/102811613/163682282-0d129b3e-4dc8-4dd9-9170-b5682cf20f51.png)
+![image](https://user-images.githubusercontent.com/102811613/164710460-0dfe2d46-c40f-40dc-9d4d-672c08d4af53.png)
 
 5000 épocas - previsão em verde
 
-![image](https://user-images.githubusercontent.com/102811613/163682306-ac8b9adc-4803-4223-9be0-c3cc3eed5dd4.png)
+![image](https://user-images.githubusercontent.com/102811613/164710507-364f264e-809a-404f-afe5-ea99ece036e5.png)
 
 7500 épocas - val loss (blue) and loss (orange)      
 
-![image](https://user-images.githubusercontent.com/102811613/163681913-03d99790-fdfb-4907-9386-3cbe92a2a659.png)
+![image](https://user-images.githubusercontent.com/102811613/164711201-32e4c6e6-a7f4-4ef1-b2cf-4ef2a45023e1.png)
 
 7500 épocas - previsão em verde
 
@@ -206,9 +208,9 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 Os melhores resultados obtidos indicaram que para as Usinas, em X% dos casos, o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
 
-Gráfico de geração
+Perfil de geração
 
-![image](https://user-images.githubusercontent.com/102811613/162490620-b560e235-5b47-432d-a070-8dfa0a27d1c6.png)
+![image](https://user-images.githubusercontent.com/102811613/164710665-d7959db5-5597-413f-870b-a2c49940faeb.png)
 
 ### 4. Conclusões
 
