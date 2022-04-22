@@ -185,6 +185,7 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 ![image](https://user-images.githubusercontent.com/102811613/164709385-f7c3ab2d-0f51-4112-8ce4-5595f2bb976a.png)
 
+2500 épocas - Realizado x Previsão 
 
 ![image](https://user-images.githubusercontent.com/102811613/164721035-725c8fb2-8e3e-41f7-b7a1-87d7b8cfd24c.png)
 
