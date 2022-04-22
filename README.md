@@ -183,30 +183,24 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 2500 épocas - val loss (blue) and loss (orange)    
 
- ![image](https://user-images.githubusercontent.com/102811613/164709385-f7c3ab2d-0f51-4112-8ce4-5595f2bb976a.png)
+![image](https://user-images.githubusercontent.com/102811613/164709385-f7c3ab2d-0f51-4112-8ce4-5595f2bb976a.png)
 
-2500 épocas - previsão em verde
-
-![image](https://user-images.githubusercontent.com/102811613/164709561-c3a92cf5-0bc4-4352-a8fe-d9cb30b3f227.png)
+![image](https://user-images.githubusercontent.com/102811613/164720558-f5a97bc3-2936-44cc-b7ce-bb3dc562171f.png)
 
 5000 épocas - val loss (blue) and loss (orange)       
 
 ![image](https://user-images.githubusercontent.com/102811613/164710460-0dfe2d46-c40f-40dc-9d4d-672c08d4af53.png)
 
-5000 épocas - previsão em verde
+![image](https://user-images.githubusercontent.com/102811613/164719987-8f963f77-17e4-41da-804c-ae1b46ec28c0.png)
 
-![image](https://user-images.githubusercontent.com/102811613/164710507-364f264e-809a-404f-afe5-ea99ece036e5.png)
+7500 épocas      
 
-7500 épocas - val loss (blue) and loss (orange)      
+![image](https://user-images.githubusercontent.com/102811613/164719443-a607ad00-484a-42ed-87d0-3691ff66dae6.png)
 
-![image](https://user-images.githubusercontent.com/102811613/164711201-32e4c6e6-a7f4-4ef1-b2cf-4ef2a45023e1.png)
-
-7500 épocas - previsão em verde
-
-![image](https://user-images.githubusercontent.com/102811613/163681920-f565ca24-7651-4f96-810e-598233fd9267.png)
+![image](https://user-images.githubusercontent.com/102811613/164719375-f2b74d72-d835-4b44-8c50-4cd75de9ec18.png)
 
 
-Os melhores resultados obtidos indicaram que para as Usinas, em X% dos casos, o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
+Os melhores resultados obtidos indicaram que para as Usinas -  - o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
 
 Perfil de geração
 
