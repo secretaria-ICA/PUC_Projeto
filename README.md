@@ -118,10 +118,11 @@ Perfil de geração
         
  2500 épocas - val loss (blue) and loss (orange)  
  
- 
+ ![image](https://user-images.githubusercontent.com/102811613/164733072-0388caae-b004-4aa1-9f8b-25252755c0c4.png)
 
  2500 épocas - previsão em verde
 
+![image](https://user-images.githubusercontent.com/102811613/164733037-d811055d-4e21-4a9d-ad9e-fd344a247a0a.png)
 
  5000 épocas - val loss (blue) and loss (orange)   
  
@@ -141,6 +142,9 @@ Perfil de geração
 
 •	Usina C:
 
+Perfil de geração
+
+![image](https://user-images.githubusercontent.com/102811613/164733585-39cd057f-eb6b-4c3e-adee-27f8749a13dc.png)
 
       Para 2500 épocas:
         Train > RMSE: 0.16   / MAPE: 1.30 
@@ -152,6 +156,29 @@ Perfil de geração
         Train > RMSE: 0.16   / MAPE: 1.46
         Test  > RMSE: 0.09   / MAPE: 1.47  
 
+2500 épocas - val loss (blue) and loss (orange)    
+
+![image](https://user-images.githubusercontent.com/102811613/164733843-2f87ac51-0641-46d3-b8f2-dc4bbe61f159.png)
+
+2500 épocas - Realizado x Previsão 
+
+![image](https://user-images.githubusercontent.com/102811613/164733864-47697955-4491-4c72-b3ad-92c198189db0.png)
+
+5000 épocas - val loss (blue) and loss (orange)    
+
+![image](https://user-images.githubusercontent.com/102811613/164735038-cd11252f-276c-4c37-aeda-0ff416b8f579.png)
+
+5000 épocas - Realizado x Previsão
+
+![image](https://user-images.githubusercontent.com/102811613/164735012-1daa4ca1-36bb-4acb-9c5f-2fa79bab31a3.png)
+
+7500 épocas - val loss (blue) and loss (orange)    
+
+![image](https://user-images.githubusercontent.com/102811613/164736318-bdb6c94a-d69a-418a-9b30-81412928205d.png)
+
+7500 épocas - Realizado x Previsão 
+
+![image](https://user-images.githubusercontent.com/102811613/164736345-abd5b364-c80a-45f8-9bc8-990c2827ef14.png)
 
 •	Subsistema Nordeste:
 
