@@ -181,7 +181,7 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 2500 épocas - val loss (blue) and loss (orange)    
 
- ![image](https://user-images.githubusercontent.com/102811613/163682656-a0a3b457-636c-4739-91b6-00f712c335cd.png)
+ ![image](https://user-images.githubusercontent.com/102811613/164709385-f7c3ab2d-0f51-4112-8ce4-5595f2bb976a.png)
 
 2500 épocas - previsão em verde
 
