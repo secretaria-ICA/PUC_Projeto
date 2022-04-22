@@ -185,17 +185,20 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 ![image](https://user-images.githubusercontent.com/102811613/164709385-f7c3ab2d-0f51-4112-8ce4-5595f2bb976a.png)
 
-![image](https://user-images.githubusercontent.com/102811613/164720808-6736bbfc-0577-44b5-96ad-c3ed3b94f8c1.png)
+
+![image](https://user-images.githubusercontent.com/102811613/164721035-725c8fb2-8e3e-41f7-b7a1-87d7b8cfd24c.png)
 
 5000 épocas - val loss (blue) and loss (orange)       
 
 ![image](https://user-images.githubusercontent.com/102811613/164710460-0dfe2d46-c40f-40dc-9d4d-672c08d4af53.png)
+
 
 ![image](https://user-images.githubusercontent.com/102811613/164719987-8f963f77-17e4-41da-804c-ae1b46ec28c0.png)
 
 7500 épocas      
 
 ![image](https://user-images.githubusercontent.com/102811613/164719443-a607ad00-484a-42ed-87d0-3691ff66dae6.png)
+
 
 ![image](https://user-images.githubusercontent.com/102811613/164719375-f2b74d72-d835-4b44-8c50-4cd75de9ec18.png)
 
