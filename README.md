@@ -185,7 +185,7 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 ![image](https://user-images.githubusercontent.com/102811613/164709385-f7c3ab2d-0f51-4112-8ce4-5595f2bb976a.png)
 
-![image](https://user-images.githubusercontent.com/102811613/164720558-f5a97bc3-2936-44cc-b7ce-bb3dc562171f.png)
+![image](https://user-images.githubusercontent.com/102811613/164720808-6736bbfc-0577-44b5-96ad-c3ed3b94f8c1.png)
 
 5000 épocas - val loss (blue) and loss (orange)       
 
