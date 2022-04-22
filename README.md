@@ -193,15 +193,17 @@ Assim, após as rodadas geradas para cada item temos as seguintes resultados:
 
 ![image](https://user-images.githubusercontent.com/102811613/164722193-65d17962-549c-4310-9042-b2b92036974f.png)
 
-![image](https://user-images.githubusercontent.com/102811613/164722248-796a7f92-f991-49f8-8839-27bbc26110de.png)
+5000 épocas - Realizado x Previsão 
+
+![image](https://user-images.githubusercontent.com/102811613/164724339-7de844cc-8be8-4bdb-8caf-4347577fbf16.png)
 
 7500 épocas      
 
-![image](https://user-images.githubusercontent.com/102811613/164719443-a607ad00-484a-42ed-87d0-3691ff66dae6.png)
+![image](https://user-images.githubusercontent.com/102811613/164723415-bb981b0a-71fc-4be4-bc58-66a144ebf1de.png)
 
+7500 épocas - Realizado x Previsão 
 
-![image](https://user-images.githubusercontent.com/102811613/164719375-f2b74d72-d835-4b44-8c50-4cd75de9ec18.png)
-
+![image](https://user-images.githubusercontent.com/102811613/164723475-62828c6e-8511-4abe-b854-94cee877e39d.png)
 
 Os melhores resultados obtidos indicaram que para as Usinas -  - o modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
 
