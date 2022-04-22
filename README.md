@@ -223,8 +223,11 @@ Perfil de geração
 
 
 ### 4. Conclusões
-Os melhores resultados obtidos indicaram que para as Usinas B e Co modelo consegue prever o perfil de geração até Y meses em relação ao realizado após janeiro de 2021. Expandindo a análise para diferente otimizadores de modelo, foi verificado que, em Z dos casos, o modelo consegue prever o perfil de geração com N% de “acerto” sobre a geração real das usinas e N2% para o Submercado.
-
+Os melhores resultados obtidos indicaram que para as Usinas B e C onde os valores de RMSE e MAPE retornaram valores abaixo da expectativa de erro de 2%. Assim, mostrou que o modelo consegue prever o perfil de geração 12 meses a frente em relação ao realizado após janeiro de 2020. 
+No entanto, para Usina A, os valores de MAPE registraram um alto grau de previsão incorreta, entre 30 e 40%, para todas as rodadas mesmo com o registro de RMSE menor que 1%.
+Vale lembrar que o erro médio absoluto percentual (MAPE) é muito utilizado para comparar os ajustes de diferentes modelos de séries temporais. Valores menores indicam um ajuste melhor, assim ele nos diz quanto, em média, estamos errando no nível de agregação de cálculo, sem compensar erros negativos com erros positivos.
+Para o Subsistema Nordeste, mesmo com o RMSE 20% e 30% para treino e teste, respectivamente, o retorno do MAPE esteve abaixo de 2% em todos os cenários. Um fator para esta discrepância é a sensibilidade as variações de gerações ao longo dos meses. 
+Com isso, é possível assumir que o modelo traz alguma confiabilidade a previsão de geração mesmo com a necessidade de aprimorar, modificar e incluir novos critérios para avaliação.
 
 ---
 
