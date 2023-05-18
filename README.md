@@ -1,5 +1,4 @@
-# PUC_Projeto
-# Previsão de séries temporais sobre a Geração Eólica do Nordeste
+# Previsao_de_Series_Temporais_sobre_a_Geracao_Eolica_do_Nordeste
 
 #### Aluno: [Carlos Henrique Calvo Martinez](https://github.com/carlosMartinez93).
 #### Orientadora: [Manoela Kohler](https://github.com/manoelakohler).
